@@ -9,7 +9,7 @@ module navbar {
       scope: {
         creationDate: '='
       },
-      templateUrl: 'modules/ui-components/navbar/navbar.html',
+      templateUrl: 'modules/shell/header/navbar.html',
       controller: navbarController,
       controllerAs: 'vm',
       // bindToController: true,

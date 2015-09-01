@@ -5,12 +5,8 @@
 (function() {
   'use strict';
 
-  function runBlock($log, toastr, gettextCatalog) {
+  function runBlock($log, gettextCatalog) {
     // Set options third-party lib
-    toastr.options.timeOut = 3000;
-    toastr.options.positionClass = 'toast-top-right';
-    toastr.options.preventDuplicates = true;
-    toastr.options.progressBar = true;
 
     gettextCatalog.setCurrentLanguage('en-US');
 
@@ -76,7 +72,6 @@
     'logger',
 
     // plugins
-    'toastr',
     'gettext',
 
     // screens
